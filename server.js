@@ -8,12 +8,11 @@ const cors = require('cors');
 
 const app = express();
 
-app.use(cors());
-
-
 require('dotenv').config();
 
-const PORT = 3000;
+app.use(cors());
+
+const PORT = process.env.PORT;
 
 app.get('/location', (request, response) => {
   const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${request.query.data}&key=${process.env.GOOGLE_API_KEY}`;
