@@ -2,7 +2,9 @@
 
 const express = require('express');
 
-const superagent = require('cors');
+const superagent = require('superagent');
+
+const cors = require('cors');
 
 const app = express();
 
