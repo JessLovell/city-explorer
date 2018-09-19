@@ -1,11 +1,11 @@
 # City Explorer
 
-**Author**: Joyce Liao and Jessica Lovell
+**Author**: Joyce Liao and Derrick Hwang
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 
 ## Overview
-We build a server with JS to take a user's request of a location, send the request to Google's backend servers, obtain results from Google backend server, and then respond to the user. We do this to familiarize ourselves with the function of the server.
+We build a server with JS to take a user's request of a location, send the request to Google's backend servers, obtain results from Google backend server, and then respond to the user. In this lab, we extend the API to obtian information from Dark Sky, Yelp and the Movie DB. 
 
 
 ## Getting Started
@@ -17,7 +17,7 @@ We use JavaScript, npm.js, Node.js, Express.js, Superagent, Dotenv and Google's 
 
 
 ## Change Log
-09-18-2018 12PM - Application successfully connected the front-end with backend Google server, and responded the user with required information.
+
 
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
